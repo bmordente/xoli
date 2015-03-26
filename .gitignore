@@ -1,4 +1,5 @@
 *.DS_Store
 *.scssc
+/dist/
 /node_modules/
 /bower_components/

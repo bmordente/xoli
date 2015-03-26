@@ -1,0 +1,13 @@
+Instalação:
+  ☐ Problemas ao instalar o imagemin quando baixa os modulos(é preciso dar "npm install" duas vezes).
+  ☐ Instalar os  componentes com o bower
+  ☐ 
+
+
+
+Passo a passo:
+  npm install, podendo ter que dar o comando 2x.
+  bower install
+  grunt copy:main
+  grunt (rodar sem browserSync)
+  grunt copy:servidor

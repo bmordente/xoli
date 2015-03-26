@@ -6,7 +6,6 @@ module.exports = function( grunt ) {
      * Não sendo necessário declarar grunt.registerTask();
     */
     require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
-    grunt.loadNpmTasks('grunt-copy-to');
 
     var moment = require('moment');
     moment().format();
@@ -15,21 +14,76 @@ module.exports = function( grunt ) {
 
         // Metadata
         pkg: grunt.file.readJSON("package.json"),
+        bower: grunt.file.readJSON("bower.json"),
+
+        copy: {
+          main: {
+            files: [
+              // JQuery
+              {expand: true, cwd: 'bower_components/jquery/', src: ['jquery.js'], dest: '<%= pkg.assets_dir %>/js/'},
+
+              // Modernizr
+              {expand: true, cwd: 'bower_components/modernizr/', src: ['modernizr.js'], dest: '<%= pkg.assets_dir %>/js/'},
+
+              // Bootstrap scss
+              {expand: true, cwd: 'bower_components/sass-bootstrap/lib/', src: ['_*.scss'], dest: '<%= pkg.assets_dir %>/sass/bootstrap/'},
+
+              // Bootstrap js
+              {expand: true, cwd: 'bower_components/sass-bootstrap/dist/js', src: ['bootstrap.js'], dest: '<%= pkg.assets_dir %>/js/'},
+
+              // Respond.js
+              {expand: true, cwd: 'bower_components/respondJS/src/', src: ['respond.js'], dest: '<%= pkg.assets_dir %>/js/'},
+
+              // Html5shiv.js
+              {expand: true, cwd: 'bower_components/html5shiv/dist/', src: ['html5shiv.js'], dest: '<%= pkg.assets_dir %>/js/'},
+            ],
+          },
+          servidor: {
+            files: [
+              // Repositório
+              {expand: true, src: ['Repositorio/**/*'], dest: '<%= pkg.homologacao_dir %>'}
+
+            ],
+          },
+        },
+
+        gitclone: {
+            main: {
+              options: {
+                repository: '<%= pkg.git_repo %>',
+                branch: "master",
+                directory: '.'
+              }
+            }
+          },
+
+        gitpull: {
+            your_target: {
+                options: {
+                    remote: '<%= pkg.git_repo %>',
+                    branch: 'master'
+                }
+            }
+        },
+
 
         // Usando o Compass para compilar arquivos Sass/Scss para CSS
         compass: {
             dist: {
                 options: {
                     force: true,
-                    httpPath: "/",
-                    cssDir: "dist/css",
-                    sassDir: "assets/sass",
-                    imagesDir: "assets/img/",
-                    javascriptsDir: "assets/js",
-                    outputStyle: 'expanded',
+                    outputStyle: 'compressed',
                     relativeAssets: true,
-                    noLineComments: false,
-                    boring: false
+                    noLineComments: true,
+                    httpPath: "<%= pkg.http_path %>",
+                    cssDir: '<%= pkg.css_dir %>',
+                    sassDir: "<%= pkg.sass_dir %>",
+                    imagesDir: "<%= pkg.images_dir %>",
+                    javascriptsDir: "<%= pkg.javascripts_dir %>",
+                    spriteLoadPath: "<%= pkg.sprite_load_path %>",
+                    boring: false,
+                    environment: "production",
+                    color_output: false,
                 }
             }
         },
@@ -38,28 +92,18 @@ module.exports = function( grunt ) {
         uglify: {
             plugins: {
                 files: {
-                    'dist/js/plugins.min.js': [
-                        'assets/js/jquery.js',
-                        'assets/js/bootstrap.js',
-                        'assets/js/analytics.js'
+                    '<%= pkg.dist_dir %>/js/responsivo.min.js': [
+                        '<%= pkg.assets_dir %>/js/html5shiv.js',
+                        '<%= pkg.assets_dir %>/js/modernizr.js',
+                        '<%= pkg.assets_dir %>/js/respond.js'
                     ],
-                    'dist/js/main.min.js':[
-                       'assets/js/jquery.js',
-                       'assets/js/bootstrap.js',
-                       'assets/js/analytics.js',
-                       'assets/js/geral.js'
+                    '<%= pkg.dist_dir %>/js/main.min.js':[
+                       '<%= pkg.assets_dir %>/js/jquery.js',
+                       '<%= pkg.assets_dir %>/js/bootstrap.js',
+                       '<%= pkg.assets_dir %>/js/analytics.js',
+                       '<%= pkg.assets_dir %>/js/geral.js'
                     ]
                 }
-            }
-        },
-
-        // Linting arquivos CSS com csslint
-        csslint: {
-            dev: {
-                csslintrc: '.csslintrc'
-            },
-            strict: {
-                src: ['assets/sass/*.scss']
             }
         },
 
@@ -71,56 +115,10 @@ module.exports = function( grunt ) {
                 },
                 files: [{
                     expand: true,
-                    cwd: 'assets/img/',
+                    cwd: '<%= pkg.assets_dir %>/img/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'dist/img/'
+                    dest: '<%= pkg.dist_dir %>/img/'
                 }]
-            }
-        },
-
-        // Notificações na Tela
-        notify: {
-            compass: {
-                options: {
-                    title: "SASS - <%= pkg.title %>",
-                    message: "Compilado e minificado com sucesso!"
-                }
-            },
-            uglify: {
-                options: {
-                    title: "Javascript - <%= pkg.title %>",
-                    message: "Compilado e minificado com sucesso!"
-                }
-            },
-            image: {
-                options: {
-                    title: "<%= pkg.title %>",
-                    message: "Imagens otimizadas com sucesso!"
-                }
-            }
-        },
-
-        //Copia arquivos
-        copyto: {
-            stuff: {
-                files: [
-                    {cwd: 'assets/', src: ['**/*.css'], dest: '<%= pkg.dist %>/dist/', expand: true}
-                ],
-                options: {
-                    processContent: function(content, path) {
-                        return content;
-                    }
-                }
-            },
-            html: {
-                files: [
-                    {cwd: 'assets/', src: ['**/*.html', '**/*.aspx', '**/*.ascx'], dest: '<%= pkg.dist %>/', expand: true}
-                ],
-                options: {
-                    processContent: function(content, path) {
-                        return content;
-                    }
-                }
             }
         },
 
@@ -133,59 +131,25 @@ module.exports = function( grunt ) {
             file: 'package.json'
         },
 
-        //Watch
-        watch: {
 
-            compass: {
-                files: 'assets/sass/**/*.{scss,sass}',
-                tasks: 'compass'
-            },
-            allFiles: {
-                files: 'assets/**',
-                tasks: ['bumpup', 'copyto']
-            }
+        watch: {
+          compass: {
+            files: ['<%= pkg.assets_dir %>/sass/**/*.{scss,sass}', '<%= pkg.assets_dir %>/js/*.js'],
+            tasks: ['compass', 'uglify']
+          }
         },
-            
+
         browserSync: {
-            dist: {
-                options: {
-                    browser: ["firefox"],
-                    //proxy: "daily.iveco.bhtec.com.br:80",
-                    //startPath: "/",
-                    watchTask: true
-                },
+            default_options: {
                 bsFiles: {
-                    src: [
-                        '<%= pkg.dist %>/dist/css/*.css',
-                        '<%= pkg.dist %>/**/*.html',
-                        '<%= pkg.dist %>/**/*.htm',
-                        '<%= pkg.dist %>/**/*.aspx',
-                        '<%= pkg.dist %>/**/*.ascx',
-                        '<%= pkg.dist %>/dist/js/*.js'
-                    ]
+                    src: ['<%= pkg.dist_dir %>/css/*.css', '*.*', '<%= pkg.dist_dir %>/js/*.js']
                 }
             },
-            local: {
-                bsFiles: {
-                    src: [
-                        'assets/css/*.css',
-                        'assets/**/*.html',
-                        'assets/**/*.htm',
-                        'assets/**/*.aspx',
-                        'assets/**/*.ascx',
-                        'assets/dist/js/*.js'
-                    ]
-                },
-                options: {
-                    server: {
-                        browser: ["firefox"],
-                        //baseDir: "./",
-                        
-                        //proxy: "daily.iveco.bhtec.com.br:80",
-                        startPath: "./",
-                        //watchTask: true
-                    },
-                    
+            options: {
+                watchTask:true,
+                browser: ["firefox"],
+                server: {
+                    baseDir: "./"
                 }
             }
         }
@@ -194,10 +158,38 @@ module.exports = function( grunt ) {
     // Iniciando as configurações do Grunt
     grunt.initConfig( appConfig );
 
-    // Tarefa padrão
-    grunt.registerTask('default', [ 'compass', 'uglify', 'imagemin' ]);
 
-    //Tarefa homologação
-    grunt.registerTask( "watch", [ 'browserSync:dist', 'watch'] );
-    grunt.registerTask( "local", [ 'browserSync:local', 'watch:compass'] );
+    grunt.registerTask('browser', [ 'browserSync', 'compass', 'uglify', 'watch' ]);
+
+    // Tarefa padrão
+    grunt.registerTask('default', [ 'compass', 'uglify', 'imagemin']);
+
+    grunt.registerTask( "copiar", [ 'copy:servidor', 'notify' ] );
+
+    grunt.registerTask( "css", [ 'compass', 'notify:compass' ] );
+
+
+    // Compass + Notify
+    // grunt.registerTask('compilarCSS', [ 'compass', 'notify:compass' ]);
+
+    // Concatenar e minificar arquivos de javascript
+    // grunt.registerTask('uglifyJS', [ 'uglify', 'notify:uglify' ]);
+
+    // Compass + Csslint
+    // grunt.registerTask('lintarCSS', [ 'compass', 'csslint:strict' ]);
+
+    // Registrar task 'i' para otimizar imagens com imagemin
+    // grunt.registerTask('otimizar', [ 'imagemin', 'notify:image' ]);
+
+    // Browser sync
+    // grunt.loadNpmTasks('grunt-browser-sync');
+
+    // Aliases para as tarefas
+    // grunt.registerTask( "b", [ "browserSync" ] );
+    // grunt.registerTask( "c", [ "compilarCSS" ] );
+    // grunt.registerTask( "l", [ "lintarCSS" ] );
+    // grunt.registerTask( "i", [ "otimizar" ] );
+    // grunt.registerTask( "u", [ "uglifyJS" ] );
+    // grunt.registerTask( "w", [ "watch" ] );
+    
 };

@@ -4,7 +4,9 @@
   "dependencies": {
     "sass-bootstrap": "3.0.2",
     "modernizr": "~2.6.2",
-    "jquery": "~1.10.2"
+    "jquery": "~1.10.2",
+    "respondJS": "~1.4.2",
+    "html5shiv": "~3.7.2"
   },
   "devDependencies": {}
 }

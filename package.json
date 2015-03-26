@@ -1,10 +1,19 @@
 {
-  "name": "bhtec-project",
-  "version": "0.0.66",
-  "timestamp": "6/2/2015, 16:37:29",
+  "name": "start-project",
+  "version": "0.0.67",
+  "timestamp": "26/3/2015, 19:32:24",
   "title": "Cliente",
   "description": "Meu projeto utilizando grunt.",
-  "dist": "/",
+  "git_repo": "https://github.com/bmordente/start-project.git",
+  "http_path": "/",
+  "css_dir": "Repositorio/dist/css",
+  "sass_dir": "Repositorio/assets/sass",
+  "images_dir": "Repositorio/dist/sprite/path",
+  "javascripts_dir": "Repositorio/assets/js",
+  "sprite_load_path": "Repositorio/assets/sprite",
+  "dist_dir": "Repositorio/dist",
+  "assets_dir": "Repositorio/assets",
+  "homologacao_dir": "homologacao",
   "author": {
     "name": "Bruno Mordente",
     "email": "bruno.alves[at]bhtec.com.br"
@@ -13,18 +22,15 @@
     "moment": "^2.9.0"
   },
   "devDependencies": {
-    "grunt-browser-sync": "1.9.1",
     "grunt": "^0.4.5",
+    "grunt-browser-sync": "1.9.1",
     "grunt-bumpup": "^0.6.2",
     "grunt-contrib-compass": "^1.0.1",
-    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-imagemin": "~0.4.0",
     "grunt-contrib-uglify": "~0.2.7",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-copy-to": "0.0.12",
-    "grunt-ftp-deploy": "~0.1.1",
-    "grunt-notify": "~0.2.16",
-    "grunt-sync": "^0.2.3",
+    "grunt-git": "^0.3.4",
     "matchdep": "~0.1.2"
   }
 }

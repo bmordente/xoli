@@ -1,0 +1,1148 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"html",
+				"html5shiv"
+			],
+			[
+				"bgzc",
+				"bgsz-cv	background-size: cover;"
+			],
+			[
+				"cb",
+				"cl-b	clear: both;"
+			],
+			[
+				"po",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"bga",
+				"bga-f	background-attachment: fixed;"
+			],
+			[
+				"ff",
+				"ff	font-family"
+			],
+			[
+				"c",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"fad",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"ls",
+				"lts	letter-spacing"
+			],
+			[
+				"o",
+				"op	opacity"
+			],
+			[
+				"ws",
+				"whs	white-space"
+			],
+			[
+				"selec",
+				"selectEspecialidade"
+			],
+			[
+				"l",
+				"l	left"
+			],
+			[
+				"BP",
+				"bgp	background-position: ${1:0} ${2:0};"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"valor",
+				"valorCheck"
+			],
+			[
+				"valorC",
+				"valorCep"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"text",
+				"textBuscar"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"botao",
+				"botao-fecha"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"table",
+				"table-container"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 6697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/Views/Destaque/_Sumario.cshtml",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/pascoa/index.html",
+			"settings":
+			{
+				"buffer_size": 5464,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.rb",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 751,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "              // {expand: true, cwd: 'dist/', src: ['jquery.js'], dest: '<%= pkg.homologacao %>'},\n  \"homologacao\": \"Z:\\iveco\\daily\\desenvolvimento\\htdocs\\2015\\teste\",\n  \"homologacao\": \"Z:\\\\iveco\\\\daily\\\\desenvolvimento\\\\htdocs\\\\2015\\\\teste\",\n{expand: true, cwd: 'dist/css/', src: ['estilo.css'], dest: '<%= pkg.homologacao %>'}",
+			"settings":
+			{
+				"buffer_size": 328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project.todo",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Windows",
+				"name": "project.todo"
+			}
+		},
+		{
+			"contents": "/* CSS Document */\n\n// Twitter Bootstrap (Descomentar os '@imports' que serão usados)\n\n// Core variables and mixins\n@import \"../../bower_components/sass-bootstrap/lib/variables\";\n@import \"../../bower_components/sass-bootstrap/lib/mixins\";\n\n// Reset and dependencies\n@import \"../../bower_components/sass-bootstrap/lib/normalize\";\n@import \"../../bower_components/sass-bootstrap/lib/print\";\n@import \"../../bower_components/sass-bootstrap/lib/glyphicons\";\n\n// Core CSS\n@import \"../../bower_components/sass-bootstrap/lib/scaffolding\";\n@import \"../../bower_components/sass-bootstrap/lib/type\";\n@import \"../../bower_components/sass-bootstrap/lib/code\";\n@import \"../../bower_components/sass-bootstrap/lib/grid\";\n@import \"../../bower_components/sass-bootstrap/lib/tables\";\n@import \"../../bower_components/sass-bootstrap/lib/forms\";\n@import \"../../bower_components/sass-bootstrap/lib/buttons\";\n\n// Components\n@import \"../../bower_components/sass-bootstrap/lib/component-animations\";\n@import \"../../bower_components/sass-bootstrap/lib/dropdowns\";\n@import \"../../bower_components/sass-bootstrap/lib/button-groups\";\n@import \"../../bower_components/sass-bootstrap/lib/input-groups\";\n@import \"../../bower_components/sass-bootstrap/lib/navs\";\n@import \"../../bower_components/sass-bootstrap/lib/navbar\";\n@import \"../../bower_components/sass-bootstrap/lib/breadcrumbs\";\n@import \"../../bower_components/sass-bootstrap/lib/pagination\";\n@import \"../../bower_components/sass-bootstrap/lib/pager\";\n@import \"../../bower_components/sass-bootstrap/lib/labels\";\n@import \"../../bower_components/sass-bootstrap/lib/badges\";\n@import \"../../bower_components/sass-bootstrap/lib/jumbotron\";\n@import \"../../bower_components/sass-bootstrap/lib/thumbnails\";\n@import \"../../bower_components/sass-bootstrap/lib/alerts\";\n@import \"../../bower_components/sass-bootstrap/lib/progress-bars\";\n@import \"../../bower_components/sass-bootstrap/lib/media\";\n@import \"../../bower_components/sass-bootstrap/lib/list-group\";\n@import \"../../bower_components/sass-bootstrap/lib/panels\";\n@import \"../../bower_components/sass-bootstrap/lib/wells\";\n@import \"../../bower_components/sass-bootstrap/lib/close\";\n\n// Components w/ JavaScript\n@import \"../../bower_components/sass-bootstrap/lib/modals\";\n@import \"../../bower_components/sass-bootstrap/lib/tooltip\";\n@import \"../../bower_components/sass-bootstrap/lib/popovers\";\n@import \"../../bower_components/sass-bootstrap/lib/carousel\";\n\n// Utility classes\n@import \"../../bower_components/sass-bootstrap/lib/utilities\";\n@import \"../../bower_components/sass-bootstrap/lib/responsive-utilities\";\n\n// Mixins do SASS\n@import \"mixin\";\n\n// Lightbox\n@import \"lightbox\";\n\n// Escreva nesse arquivo\n@import \"main\";\n\n// Sprite\n@import \"../sprite/*.png\";\n\n// Incluindo os sprites\n@include all-sprite-sprites;",
+			"file": "assets/sass/estilo.scss",
+			"file_size": 2851,
+			"file_write_time": 130716788638416072,
+			"settings":
+			{
+				"buffer_size": 2783,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Repositorio/assets/sass/estilo.scss",
+			"settings":
+			{
+				"buffer_size": 2897,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"clo",
+				"Project: Close"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"REI",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"closel",
+				"File: Close All"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reidne",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"CLOSE",
+				"Project: Close"
+			],
+			[
+				"cloe",
+				"Project: Close"
+			],
+			[
+				"sav",
+				"File: Save All"
+			],
+			[
+				"red",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ree",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rede",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"savel",
+				"File: Save All"
+			],
+			[
+				"savl",
+				"File: Save All"
+			],
+			[
+				"sa",
+				"File: Save All"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"lose",
+				"Project: Close"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wre",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"close ",
+				"File: Close All"
+			],
+			[
+				"wrao",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wordw",
+				"Word Wrap: Toggle"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"cclose",
+				"Convert Case: Lower Case"
+			],
+			[
+				"closa",
+				"File: Close All"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"preferece",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"manage",
+				"Fetch: Manage"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/Views/PaginasEspeciais/Pascoa.cshtml",
+		"/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/Views/Shared/_Layout.cshtml",
+		"/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/Views/Shared/Index.cshtml",
+		"/C/Users/Bruno/Documents/Bhtec/git/start-project/bower_components/jquery/jquery.js",
+		"/C/Users/Bruno/Documents/Bhtec/git/start-project/bower.json",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/teste/estilo.css",
+		"/C/Users/Bruno/Documents/Bhtec/git/start-project/config.rb",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/pascoa/index.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/pascoa/regulamento.html",
+		"/C/Users/Bruno/Documents/Bhtec/git/start-project/index.html",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily2/Gruntfile.js",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Destaques-capa/telas-grandes.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Destaques-capa/telas-pequenas.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Destaques-capa/telas-medias.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Views/PaginasEspeciais/Pascoa.cshtml",
+		"/C/Users/Bruno/Documents/Bhtec/bhs/site/pascoa/index.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Views/PaginasEspeciais/Guerreiros.cshtml",
+		"/C/Users/Bruno/Documents/Bhtec/git/start-project/Gruntfile.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/dist/jquery.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/default.aspx",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/formIntencaoCompra.ascx",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/default.aspx",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/tector/assets/sass/_main.scss",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily2/package.json",
+		"/Z/fiatreparadores/homologacao/htdocs/Repositorio/download/controledownload.aspx",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily2/assets/sass/_main.scss",
+		"/C/Users/Bruno/Downloads/Repositorio_Media_Sistemas_enquete_controleenquete.ascx",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/formIntencaoCompra.ascx",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/formulario/assets/sass/_main.scss",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/formulario/intencaoCompra.html",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily2/index.html",
+		"/C/Users/Bruno/Documents/Bhtec/git/daily/package.json",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/tector/assets/sass/estilo.scss",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/tector/assets/version.json",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily/assets/sass/_main.scss",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/intecaoCompra/assets/js/geral.js",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/intecaoCompra/intencaoCompra.html",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/formulario/assets/sass/estilo.scss",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/formulario/intencaoCompra.html",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/formulario/default.aspx",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/intecaoCompra/dist/js/geral.js",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/formulario/assets/js/geral.js",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/formulario/default.html",
+		"/Z/fiatreparadores/homologacao/htdocs/Repositorio/Media/Sistemas/enquete/controleenquete.ascx",
+		"/C/Users/Bruno/Documents/Bhtec/newholland/agricola/index.html",
+		"/C/Users/Bruno/Documents/Bhtec/newholland/agricola/package.json",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/formulario/assets/sass/_main.scss",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/assets/sass/_main.scss",
+		"/C/Users/Bruno/Documents/Bhtec/nh/Caseih/estrutura/Images.xcassets/bck-capa.imageset/Contents.json",
+		"/C/Users/Bruno/Downloads/general.local.js",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/tector/assets/sass/config.rb",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/tector/Gruntfile.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/Gruntfile.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/JXXZMD50/general.local.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/1JYTQEVK/general.local.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/2015/default.aspx.20150304.1434.bruno.alves.bkp",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/Sucesso.aspx",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/index.html",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/intencao-compra-serie-c.aspx",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/Sucesso.html",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/css/style.css",
+		"/Z/cnh/desenvolvimento/htdocs/seriec/templateemail.aspx",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/Repositorio/Templates/ptProdutorCapaCCPR/Template.ascx",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/Repositorio/Templates/Geral/scripts/produtor/jquery-1.4.1.min.js",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/Repositorio/Templates/Geral/scripts/produtor/gerais.js",
+		"/C/Users/Bruno/AppData/Local/Temp/Rar$DIa0.118/case construction.txt",
+		"/C/Users/Bruno/Desktop/general.local.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/assets/css/estilo.css",
+		"/C/Users/Bruno/AppData/Local/Temp/Rar$DIa0.904/New holland rtgt.txt",
+		"/Z/iveco/desenvolvimento/htdocs/daily/destaque/index.html",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/Repositorio/Templates/Geral/scripts/produtor/jquery-1.11.2.min.js",
+		"/Z/iveco/daily/desenvolvimento/htdocs/tector/config.rb",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/LayoutCCPR/index.html",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/CriaNovaPasta.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Conteudo/ListaConteudoPastaComBusca.ascx",
+		"/C/Users/Bruno/Desktop/xoli.html",
+		"/Z/teksid/somar/desenvolvimento/htdocs/Interna.Master",
+		"/Z/teksid/somar/desenvolvimento/htdocs/Default.aspx",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/Repositorio/Templates/Geral/Estilo/estilo-screen.css",
+		"/Z/itambe/site2010/desenvolvimento/htdocs/Repositorio/Templates/ptCCPRCapa/Template.ascx",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/Repositorio/Media/sistemas/sumarios/sumariopublications.ascx",
+		"/Z/teksid/somar/desenvolvimento/htdocs/js/respond.js",
+		"/Y/VPN/vpn/senha.txt",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/CBMM/Sumarios/controleBuscaSumarioMedia.ascx",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/Repositorio/Media/sistemas/sumarios/publications/abaspublications_us.ascx",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/Repositorio/Media/sistemas/sumarios/publications/abaspublications_br.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Conteudo/ListaConteudoPasta.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Conteudo/BuscaConteudoPasta.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Conteudo/CriaNovaPasta.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/MenuTreeViewMedia.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/ListaConteudoPasta.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/ListaConteudoPastaComBusca.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/MenuEstruturaMedia.ascx.20150223.1329.bruno.alves.bkp",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/MenuEstruturaMedia.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/BuscaMedia.ascx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/MediaManager.aspx",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Media/AbreMediaManager.aspx",
+		"/C/Users/Bruno/Documents/Bhtec/cbmm/app/index.html",
+		"/C/Users/Bruno/Documents/Bhtec/cbmm/app/index-en.html",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/app/site/assets/js/geral.js",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/app/site/assets/js/browser-lang.js",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Conteudo/ContentManager.aspx",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/app/site/index.html",
+		"/Z/cbmm/site2012/desenvolvimento/htdocs/app/site/index-en.html",
+		"/Z/bhtec/compose/desenvolvimento/htdocs/CMIManager/Compose.Master",
+		"/C/Users/Bruno/Documents/Bhtec/cbmm/app/assets/sass/_main.scss",
+		"/C/Users/Bruno/Documents/Bhtec/iveco/daily2/assets/sass/_media.scss",
+		"/C/Users/Bruno/Documents/Bhtec/bhs/cinema/template/index.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/guerreiros/index.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/bhonice/index.html",
+		"/C/Users/Bruno/Documents/Bhtec/bhs/site/telas-medias.html",
+		"/C/Users/Bruno/Documents/Bhtec/bhs/site/telas-grandes.html",
+		"/C/Users/Bruno/Documents/Bhtec/bhs/site/telas-pequenas.html",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/guerreiros/style.css",
+		"/Z/bhshopping/site2014/desenvolvimento/htdocs/Views/PaginasEspeciais/Bhonice.cshtml",
+		"/Z/teksid/somar/desenvolvimento/htdocs/Capa.aspx",
+		"/Z/teksid/somar/desenvolvimento/htdocs/js/destaques.js",
+		"/Z/teksid/somar/desenvolvimento/htdocs/sass/screen.scss",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/9BOJJG08/concessionarios.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/JXXZMD50/rota.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/1JYTQEVK/capa.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/9BOJJG08/gerais.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/J2PW3MEK/general.local.js",
+		"/Z/teksid/somar/desenvolvimento/htdocs/Global.asax",
+		"/C/Users/Bruno/Documents/Bhtec/xoli/package.json",
+		"/Z/teksid/somar/desenvolvimento/htdocs/js/html5shiv.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/9BOJJG08/respond.js",
+		"/C/Users/Bruno/AppData/Local/Microsoft/Windows/INetCache/IE/JXXZMD50/html5shiv.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"Z:\\itambe\\site2010\\desenvolvimento\\htdocs\\Repositorio",
+			"Z:\\ivecodiretto\\homologacao\\htdocs",
+			"C:\\Users\\Bruno\\Desktop\\views",
+			"C:\\Users\\Bruno\\Desktop\\prod",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\medicos",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\medicos",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\medicos",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\medicos",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\medicos",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\neocode\\site\\especialidades",
+			"C:\\Users\\Bruno\\Documents\\Bhtec\\premio\\wp-content\\plugins\\meenews",
+			"Z:\\hermespardini\\digimagem\\desenvolvimento\\htdocs",
+			"Z:\\hermespardini\\site2012\\desenvolvimento\\htdocs\\Repositorio\\Media\\sistemas\\menu",
+			"Z:\\hermespardini\\site2012\\desenvolvimento\\htdocs\\Repositorio\\Media",
+			"Y:\\iveco\\Android\\html\\",
+			"Y:\\iveco\\Android\\html\\ficha-tecnica",
+			"Y:\\iveco\\Android\\html,Y:\\iveco\\Android\\html\\ficha-tecnica",
+			"Y:\\iveco\\Android\\html",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"../",
+			"primavera-verao",
+			"guerreiros",
+			"\\",
+			"modernizr",
+			"destaque",
+			"font-family: $font-bold;",
+			"img",
+			"descrica",
+			"06",
+			"05",
+			"01",
+			"galeria",
+			"selo",
+			"60",
+			"h4",
+			"geral",
+			"<!",
+			"dist",
+			"id=\"",
+			"ID=\"",
+			"id",
+			"ID",
+			"OnClientClick",
+			"runat=\"server\" ",
+			" ? ",
+			"AvisoLegal",
+			"AvisoLegal ",
+			"daily",
+			"í",
+			"ã",
+			"õ",
+			"ç",
+			"ê",
+			"á",
+			"selos-contato",
+			"\\",
+			"contato",
+			"iframe",
+			" !important",
+			"label",
+			" runat=\"server\"",
+			"jQuery.browser",
+			"/Repositorio/Templates/Geral/scripts/produtor/jquery-1.4.1.min.js",
+			"media",
+			"repeaterListaConteudo",
+			"linkCriarNovaPagina",
+			"Novo",
+			"busca",
+			"linkModelo",
+			"linkExcluirSelecionadas",
+			"linkCriarNovaPagina",
+			"panelToolbarEdicao",
+			"75px",
+			"#newsletterContainer ",
+			"http://www2.cbmm.com.br/sysphera",
+			"http://www1.cbmm.com.br/sysphera",
+			"destaque",
+			"<h3 style=\"color:#444444; font-weight: bold; font-size: 15px; margin: 0 ; text-transform: uppercase;font-family: arial, sans-serif !important;\">Nacional (Cinemark 3)</h3>",
+			"<p style=\"color:#444; margin-top: 10px;font-family: arial, sans-serif !important;\">12h20, 15h00, 17h40, 20h10</p>",
+			"fam",
+			"dest",
+			"destta",
+			"18px",
+			"text-decoration: none;",
+			"width: 35px;",
+			"40px;",
+			"n: none;\"",
+			"n: none;",
+			"none;\">",
+			"#\"",
+			"5px",
+			"35px",
+			"<li>",
+			"h3",
+			"p",
+			"destaque",
+			"home",
+			"primavera-verao",
+			"\"item0",
+			"\"item",
+			"laranja",
+			"logo",
+			"black",
+			"00000",
+			"0000",
+			"000",
+			"00",
+			"aspx",
+			"form",
+			"zoom",
+			"selo-ma",
+			"b",
+			"xoli",
+			");\">\n",
+			"xoli",
+			" xoli",
+			"group",
+			"xoli",
+			"form-group",
+			"index.html",
+			"Contat",
+			"/dist/folhetos",
+			"id=\"linkConsultorVendas",
+			"\"taLigado\"",
+			"rel=\"taLigado\"",
+			"TaLigado\"",
+			"taLigado\"",
+			"taLigado",
+			"ConteudoAbaInt",
+			"TECTOR_MAC",
+			"2s",
+			"menu",
+			" !important",
+			"content",
+			"-150%",
+			"hoverbotaodireita",
+			"// hoverbotaodireita\n",
+			"hoverbotaodireita",
+			"tint",
+			"hoverbotao",
+			"hover",
+			"esquerda",
+			"hoverbotao",
+			"1s",
+			"40%",
+			"0;",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<h1><a class=\"sprite-logo\" href=\"../index.html\">Neocode</a></h1>",
+			"<li><a href=\"../especialidades.html\">Especialidades</a></li>\n                <li><a href=\"../equipe.html\" class=\"active\">Equipe Médica</a></li>",
+			"<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-3\">\n              <img ",
+			"<div class=\"col-xs-12 col-sm-12 col-md-5 col-lg-5\">\n          <div class=\"sidebar\">",
+			"<link rel=\"stylesheet\" href=\"../dist/css/estilo.css\">",
+			"<div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-2 margin-top-form\">\n                  <button type=\"submit\" class=\"btn btn-warning btn-login\">Ver Resultado</button>\n                </div>",
+			"<div class=\"login-footer\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <form class=\"navbar-form navbar-form-bottom\" role=\"search\">\n            <div class=\"col-xs-12 col-sm-6 col-md-8 col-lg-8\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <strong>Resultado de Exames: </strong>\n                </div>\n\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-user icone-input\"></span>\n                    <input type=\"text\" class=\"form-control user\" placeholder=\"Login\">\n                  </div>\n                </div>\n\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-password icone-input\"></span>\n                    <input type=\"text\" class=\"form-control password\" placeholder=\"Senha\">\n                  </div>\n                </div>\n\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <button type=\"submit\" class=\"btn btn-warning btn-login\">Ver Resultado</button>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-8\">\n                  <h4 class=\"title-form mt20\">Faça seu Agendamento</h4>\n                </div>\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-4 margin-top-form\">\n                  <a href=\"agendamento.html\" class=\"btn btn-primary btn-login\">[+] Leia Mais</a>\n                </div>\n              </div>\n            </div>\n\n          </form>\n        </div>\n      </div>\n    </div>",
+			"		<div class=\"login-footer\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <form class=\"navbar-form navbar-form-bottom\" role=\"search\">\n            <div class=\"col-xs-12 col-sm-6 col-md-8 col-lg-8\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <strong>Resultado de Exames: </strong>\n                </div>\n              \n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-user icone-input\"></span>\n                    <input type=\"text\" class=\"form-control user\" placeholder=\"Login\">\n                  </div>\n                </div>\n\n                <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-password icone-input\"></span>\n                    <input type=\"text\" class=\"form-control password\" placeholder=\"Senha\">\n                  </div>\n                </div>\n                \n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <button type=\"submit\" class=\"btn btn-warning btn-login\">Ver Resultado</button>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-8\">\n                  <h4 class=\"title-form mt20\">Faça seu Agendamento</h4>\n                </div>\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-4 margin-top-form\">\n                  <a href=\"agendamento.html\" class=\"btn btn-primary btn-login\">[+] Leia Mais</a>\n                </div>\n              </div>\n            </div>\n\n          </form>\n        </div>\n      </div>\n    </div>",
+			"<title>Neocode Exames Laboratoriais</title>",
+			"<head>\n	<meta charset=\"UTF-8\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>\n\n  <title>Neocode</title>\n  \n  <meta name=\"author\" content=\"Bhtec e:house\">\n  <meta name=\"description\" content=\"A Neocode realiza diagnósticos de alta complexidade, com uma equipe de mais de 150 profissionais, processando cerca de meio milhão de exames por ano, e se compara aos maiores centros mundiais de Patologia Cirúrgica do mundo.\">\n    \n  <meta name=\"keywords\" content=\"laboratório, diagnósticos, exames, patologia, citopatologia, imunohistoquímica\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:title\" content=\"Neocode Exames Laboratoriais\">\n  <meta property=\"og:description\" content=\"A Neocode realiza diagnósticos de alta complexidade, com uma equipe de mais de 150 profissionais, processando cerca de meio milhão de exames por ano, e se compara aos maiores centros mundiais de Patologia Cirúrgica do mundo.\">\n\n  <!-- Inserir logo Neocode -->\n  <meta property=\"og:image\" content=\"http://www.bhtec.com.br/bhtec-logo.jpg\">\n\n  <!-- Inserir URL -->\n  <meta property=\"og:url\" content=\"http://www.bhtec.com.br\">\n\n  <meta itemprop=\"name\" content=\"Neocode Exames Laboratoriais\">\n\n  <meta itemprop=\"description\" content=\"A Neocode realiza diagnósticos de alta complexidade, com uma equipe de mais de 150 profissionais, processando cerca de meio milhão de exames por ano, e se compara aos maiores centros mundiais de Patologia Cirúrgica do mundo.\">\n\n  <!-- Inserir logo Neocode -->\n  <meta itemprop=\"image\" content=\"http://www.bhtec.com.br/bhtec-logo.jpg\">\n\n  <!-- Inserir URL -->\n  <meta itemprop=\"url\" content=\"http://www.bhtec.com.br\">\n    \n  <link rel=\"stylesheet\" href=\"dist/css/estilo.css\">\n\n</head>",
+			"<div class=\"login-footer\">\n      <div class=\"container\">\n        <div class=\"row\">\n          <form class=\"navbar-form navbar-form-bottom\" role=\"search\">\n            <div class=\"col-xs-12 col-sm-6 col-md-8 col-lg-8\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <strong>Resultado de Exames: </strong>\n                </div>\n              \n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-user icone-input\"></span>\n                    <input type=\"text\" class=\"form-control user\" placeholder=\"Login\">\n                  </div>\n                </div>\n\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-3\">\n                  <div class=\"form-group\">\n                    <span class=\"sprite-login-password icone-input\"></span>\n                    <input type=\"text\" class=\"form-control password\" placeholder=\"Senha\">\n                  </div>\n                </div>\n                \n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-2 margin-top-form\">\n                  <button type=\"submit\" class=\"btn btn-warning btn-login\">Ver Resultado</button>\n                </div>\n              </div>\n            </div>\n\n            <div class=\"col-xs-12 col-sm-12 col-md-4 col-lg-4\">\n              <div class=\"row\">\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-9\">\n                  <h4 class=\"title-form mt20\">Faça seu Agendamento</h4>\n                </div>\n                <div class=\"col-xs-12 col-sm-12 col-md-12 col-lg-3 margin-top-form\">\n                  <a href=\"agendamento.html\" class=\"btn btn-primary btn-login\">[+] Leia Mais</a>\n                </div>\n              </div>\n            </div>\n\n          </form>\n        </div>\n      </div>\n    </div>",
+			"alt=\"Neocode\"",
+			"<img class=\"img-responsive\" src=\"../dist/img/pagina-especialidades.jpg\">",
+			"<li><a href=\"../equipe.html\">Equipe Médica</a></li>",
+			"<li><a href=\"../especialidades.html\" class=\"active\">Especialidades</a></li>",
+			"<li><a href=\"../equipe.html\" class=\"active\">Equipe Médica</a></li>",
+			"list-unstyled lista-padrao",
+			"item-list",
+			"class=\"btn btn-primary btn-lg btn-block\" target=\"_blank\"",
+			"<span>Topo</span>",
+			"            <a href=\"#\"><span>Topo</span></a>",
+			"<span>Topo</span>",
+			"><a",
+			"<li class=\"list-group-item\">",
+			"<ul class=\"list-group\">",
+			"dist/img/",
+			"Ginecológica",
+			"Saúde de Mulher",
+			"<ul class=\"dropdown-menu\" role=\"menu\" aria-labelledby=\"dropdownMenu1\">\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"anatomo-patologico.html\">Anátomo Patológico</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"citopatologia.html\">Citopatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"dermatopatologia.html\">Dermatopatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"diagnosticos-moleculares.html\">Diagnósticos Moleculares</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"hemapatologia.html\">Hematopatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"hepatopatologia.html\">Hepatopatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"imunoistoquimica.html\">Imunoistoquímica</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"nefropatologia.html\">Nefropatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"neuropatologia.html\">Neuropatologia</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-bucal.html\">Patologia Bucal</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-cirurgica-geral.html\">Patologia Cirúrgica Geral</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-cabeca-pescoco.html\">Patologia de Cabeça e Pescoço</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-sistema-endocrino.html\">Patologia do Sistema Endócrino</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-gastrointestinal.html\">Patologia Gastrointestinal, Pâncreas e Vias Biliares</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-ginecologica.html\">Patologia Ginecológica</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-mamaria.html\">Patologia Mamária</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-ossos-partes-moles.html\">Patologia dos Ossos e Partes Moles</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-pediatrica.html\">Patologia Pediátrica</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"patologia-pulmonar-toracica.html\">Patologia Pulmonar e Torácica</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"saude-mulher.html\">Saúde da Mulher</a></li>\n                <li role=\"presentation\"><a  role=\"menuitem\" tabindex=\"-1\" href=\"uropatologia.html\">Uropatologia</a></li>\n              </ul>",
+			"tabindex=\"-1\" href=\"anatomo-patologico.html\"",
+			"<li class=\"list-group-item\">",
+			"<ul class=\"list-group\">",
+			"</span></h2>",
+			"<h2><span>",
+			"td",
+			"brAmortecedores",
+			"br",
+			"<div class=\"separador\">\n		<div class=\"linha\"></div>\n		<div class=\"bola\"></div>\n	</div>",
+			"		<div class=\"separador\">\n			<div class=\"linha\"></div>\n			<div class=\"bola\"></div>\n		</div>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 6697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5579,
+								5579
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1950.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/Views/Destaque/_Sumario.cshtml",
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ASP/HTML-ASP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Z/bhshopping/site2014_mobile/desenvolvimento/htdocs/pascoa/index.html",
+					"settings":
+					{
+						"buffer_size": 5464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config.rb",
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "project.todo",
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"auto_name": "project.todo",
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/sass/estilo.scss",
+					"settings":
+					{
+						"buffer_size": 2783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2715,
+								2712
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Repositorio/assets/sass/estilo.scss",
+					"settings":
+					{
+						"buffer_size": 2897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2826,
+								2826
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fale",
+				"fale-conosco.html"
+			],
+			[
+				"sob",
+				"sobre.html"
+			],
+			[
+				"sobre",
+				"sobre.html"
+			],
+			[
+				"equ",
+				"equipe.html"
+			],
+			[
+				"espe",
+				"especialidades.html"
+			],
+			[
+				"ese",
+				"especialidades/patologia-sistema-endocrino.html"
+			],
+			[
+				"exames",
+				"exames.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"pasco",
+				"/C/Users/Bruno/Documents/Bhtec/bhs/site/pascoa/pascoa.sublime-project"
+			],
+			[
+				"pasc",
+				"/C/Users/Bruno/Documents/Bhtec/bhs/site/pascoa/pascoa.sublime-project"
+			],
+			[
+				"da",
+				"/C/Users/Bruno/Documents/Bhtec/iveco/daily/assets/sass/daily.sublime-project"
+			],
+			[
+				"",
+				"/C/Users/Bruno/Documents/Bhtec/cnh/cnhitools/cnhitools.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true
+}
